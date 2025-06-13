@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.blog {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 384px;
+  max-height: 522px;
+  text-align: left;
+  box-shadow: 10px 10px 0px #2b2b2b;
+}
+
+.blog .illustration {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.blog button {
+  background-color: hsl(47, 88%, 63%);
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 25px;
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.blog h1 {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.review {
+  display: flex;
+  gap: 1rem;
+  font-weight: 600;
+}
+
+.review img {
+  width: 10%;
+  height: 10%;
+  padding-top: 5px;
+}
+
+.blog .write {
+  font-size: 16px;
+  color: hsl(0, 0%, 42%);
+}
+
+.published {
+  font-weight: 500;
+}
